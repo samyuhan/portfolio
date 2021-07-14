@@ -1,0 +1,141 @@
+* {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 0px;
+    margin: 0px;
+}
+
+header {
+    background-color: grey;
+    height: 130px;
+}
+
+header h1 {
+    line-height: 45px;
+    background-color: pink;
+    padding: 15px 30px 15px 100px;
+    display: inline;
+    float: left;
+}
+
+nav {
+    background-color: grey;
+    padding: 30px;
+    padding-left: 500px;
+    margin: 15px;
+    float: right;
+    scroll-behavior: smooth;
+}
+
+nav a {
+    color: pink;
+    padding: 30px 25px;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-left: 15px;
+}
+
+figure img {
+    display: inline;
+    width: 100%;
+}
+
+figure p {
+    display: inline;
+    position: absolute;
+    top: 375px;
+    right: 125px;
+    background-color: pink;
+    padding: 15px;
+    font-size: 25px;
+}
+
+aside {
+    /*border-right: 3px solid black;*/
+
+}
+
+.about-me {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+
+.about-me p {
+    left: 100px;
+    width: 75%;
+}
+
+.container {
+    flex: 4;
+    background-color: #fff;
+    padding: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    margin-left: 100px;
+}
+
+.container h3 {
+    display: inline;
+    position: absolute;
+    top: 80px;
+    left: 50px;
+}
+
+.container p {
+    display: inline;
+    position: absolute;
+    top: 125px;
+    left: 50px;
+}
+
+.container img {
+    display: inline;
+    border: 10px solid pink;
+    margin: 10px;
+}
+
+.report {
+    position: relative;
+    outline: 3px solid black;
+    width: 1000px;
+    height: 100px;
+}
+
+.img {
+    /* background-image: url("https://static.vecteezy.com/system/resources/previews/001/218/845/non_2x/colorful-holographic-gradient-background-design-vector.jpg");
+*/
+    background-color: #8EC5FC;
+    background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+}
+
+/* .report h3 {
+    top: 150px;
+}
+
+.report p {
+    top: 200px;
+} */
+
+.led, .calculator, .puzzel, .buddy {
+    position: relative;
+    width: 50%;
+}
+
+.container img:hover {
+    background-color: grey;
+    opacity: 0.7
+}
+
+.contact-me ul li {
+    display: inline;
+    padding: 50px;
+}
