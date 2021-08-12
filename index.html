@@ -1,30 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Samantha's Portfolio</title>
     <link rel="stylesheet" type="text/css" href="./style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
 </head>
+
 <body>
     <header>
         <h1>Samantha</h1>
-        <nav>
-            <ul>
-                <li>
-                    <a href="#about-me">About Me</a>
-                </li>
-                <li>
-                    <a href="#work">Work</a>
-                </li>
-                <li>
-                    <a href="#contact-me">Contact Me</a>
-                </li>
-                <li>
-                    <a href="Yuhan_Resume.pdf">Resume</a>
-                </li>
-            </ul>
+        <nav class="navbar navbar-light" style="background-color: #e3f2fd;">
+            <div class="container-fluid">
+                <ul class="nav justify-content-end">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#about-me">About Me</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#work">Work</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact-me">Contact Me</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Yuhan_Resume.pdf">Resume</a>
+                    </li>
+                </ul>
+            </div>
         </nav>
     </header>
 
@@ -38,43 +44,49 @@
                 <aside>
                     <h2>About Me</h2>
                 </aside>
-                
+
                 <p>
                     Hello, my name is Samantha! I just graduated from UC Berkeley with a Bachelor's degree
                     in Data Science. I am interested in pursuing UX/UI Design or maybe website development,
-                    which is why I'm taking this bootcamp. I hope that I can merge my creative and technical 
+                    which is why I'm taking this bootcamp. I hope that I can merge my creative and technical
                     skills to build beautiful functioning websites.
                 </p>
             </section>
             <br />
-            
+
             <section class="work" id="work">
                 <aside>
                     <h2>Work</h2>
                 </aside>
-                
+
                 <div class="container">
-                    <section class="poke img" id="project">
-                        <div>
-                            <h3>Poke Battler</h3>
-                            <p></p>
-                        </div>
-                    </section>
+                    <a href="https://github.com/samyuhan/pokebattler">
+                        <section class="poke img" id="project">
+                            <div>
+                                <h3>Poke Battler</h3>
+                                <p></p>
+                            </div>
+                        </section>
+                    </a>
 
-                    <section class="boredom img" id="project">
-                        <div>
-                            <h3>Feed Your Boredom</h3>
-                            <p></p>
-                        </div>
-                    </section>
+                    <a href="https://github.com/samyuhan/FeedYourBoredom">
+                        <section class="boredom img" id="project">
+                            <div>
+                                <h3>Feed Your Boredom</h3>
+                                <p></p>
+                            </div>
+                        </section>
+                    </a>
 
-                    <section class="planner img" id="project">
-                        <div> 
-                            <h3>Planner</h3>
-                            <p></p>
-                        </div>
-                        
-                    </section>
+                    <a href="https://github.com/samyuhan/calendar">
+                        <section class="planner img" id="project">
+                            <div>
+                                <h3>Planner</h3>
+                                <p></p>
+                            </div>
+
+                        </section>
+                    </a>
                 </div>
             </section>
             <br />
@@ -83,7 +95,7 @@
                 <aside>
                     <h2>Contact Me</h2>
                 </aside>
-                
+
                 <ul>
                     <li><a href="tel:949-836-7611">949.836.7611</a></li>
                     <li><a href="mailto:syuhan@berkeley.edu">syuhan@berkeley.edu</a></li>
@@ -93,5 +105,9 @@
             </section>
         </section>
     </main>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+        crossorigin="anonymous"></script>
 </body>
+
 </html>
