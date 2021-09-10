@@ -1,9 +1,11 @@
+/*Gives all components on the page this font-family and 0 padding/margin*/
 * {
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     padding: 0px;
     margin: 0px;
 }
 
+/*Gives header a lightgray color*/
 header {
     background-color: lightgray;
 }
@@ -20,6 +22,7 @@ figure img {
     width: 100%;
 }
 
+/*Gives the entire main section a light pink background color*/
 main {
     background-color: rgb(255, 237, 243);
 }
@@ -39,6 +42,7 @@ aside {
     border-color: rgb(255, 237, 243);
 }
 
+/*Flex displays the paragraph portion of About Me*/
 .about-me p {
     margin-top: 50px;
     display: flex;
@@ -54,13 +58,12 @@ aside {
     margin-top: 50px;
 }
 
+/*Gives the entire Work container flex display and wrap*/
 .container {
-    background-color: #fff;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
     margin-left: 75px;
-    background-color: rgb(255, 237, 243);
 }
 
 .container h3 {
@@ -85,13 +88,29 @@ aside {
     display: flex;
     flex-direction: row;
     margin-top: 50px;
+    width: 100%;
 }
 
 .contact-me ul li {
-    display: inline-block;
+    display: flex;
     padding: 50px;
+    width: 100%;
 }
 
 .contact-me ul {
     display: flex;
+    width: 100%;
+}
+
+@media (max-width: 600px) {
+    .contact-me ul {
+        font-size: small;
+        display: inline-block;
+    }
+}
+
+@media (max-width: 900px) {
+	.contact-me ul {
+        font-size: small;
+    }
 }

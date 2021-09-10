@@ -7,8 +7,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Samantha's Portfolio</title>
     <link rel="stylesheet" type="text/css" href="./style.css">
+    <!--Bootstrap link-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <!--Google Font link-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Knewave&display=swap" rel="stylesheet">
@@ -19,6 +21,7 @@
         <h1>SAMANTHA</h1>
         <nav class="navbar navbar-light" style="background-color: #e3f2fd;">
             <div class="container-fluid">
+                <!--Nav bar unordered list that links to corresponding sections of page-->
                 <ul class="nav justify-content-end">
                     <li class="nav-item">
                         <a class="nav-link active" aria-current="page" href="#about-me">About Me</a>
@@ -36,13 +39,14 @@
             </div>
         </nav>
     </header>
-
+    <!--Image of Berkeley-->
     <figure>
         <img src="https://www.econ.berkeley.edu/sites/default/files/Commencement.png" alt="Berkeley Campus at sunset">
     </figure>
 
     <main>
         <section class="text">
+            <!--About Me section that gives brief bio-->
             <section class="about-me" id="about-me">
                 <aside>
                     <h2>ABOUT ME</h2>
@@ -57,12 +61,15 @@
             </section>
             <br />
 
+            <!--Work section to showcases 3 projects/assignments from the course-->
             <section class="work" id="work">
                 <aside>
                     <h2>WORK</h2>
                 </aside>
-
+                
+                <!--Container class that carries all the bootstrap cards-->
                 <div class="container">
+                    <!--Poke Battler bootstrap card-->
                     <div class="card" style="width: 18rem;">
                         <img src="./assets/poke.png" class="card-img-top" alt="Poke Battler">
                         <div class="card-body">
@@ -75,6 +82,7 @@
                         </div>
                     </div>
 
+                    <!--Feed Your Boredom bootstrap card-->
                     <div class="card" style="width: 18rem;">
                         <img src="./assets/feed.png" class="card-img-top" alt="FeedYourBoredom">
                         <div class="card-body">
@@ -86,6 +94,7 @@
                         </div>
                     </div>
 
+                    <!--Planner bootstrap card-->
                     <div class="card" style="width: 18rem;">
                         <img src="./assets/planner.png" class="card-img-top" alt="Planner">
                         <div class="card-body">
@@ -100,11 +109,12 @@
             </section>
             <br />
 
+            <!--Contact Me section for phone number, email, github, linkedin-->
             <section class="contact-me" id="contact-me">
                 <aside>
                     <h2>CONTACT ME</h2>
                 </aside>
-
+                <!--Unorder list of contact information-->
                 <ul>
                     <li><a href="tel:949-836-7611">949.836.7611</a></li>
                     <li><a href="mailto:syuhan@berkeley.edu">syuhan@berkeley.edu</a></li>
@@ -114,6 +124,7 @@
             </section>
         </section>
     </main>
+    <!--Bootstrap Script-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
         crossorigin="anonymous"></script>
