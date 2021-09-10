@@ -18,22 +18,29 @@ figure img {
     width: 100%;
 }
 
+main {
+    background-color: rgb(255, 237, 243);
+}
+
 aside {
     /* border-right: 3px solid black; */
+    margin-top: 50px;
     margin-left: 50px;
 }
 
 .about-me {
     display: flex;
-    margin-top: 50px;
+    border-color: rgb(255, 237, 243);
 }
 
 .about-me p {
+    margin-top: 50px;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
     width: 75%;
     margin-left: 50px;
+    background-color: rgb(255, 237, 243);
 }
 
 .work {
@@ -47,6 +54,7 @@ aside {
     flex-wrap: wrap;
     justify-content: space-evenly;
     margin-left: 75px;
+    background-color: rgb(255, 237, 243);
 }
 
 .container h3 {
