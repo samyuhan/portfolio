@@ -103,16 +103,9 @@ aside {
 #project {
     position: relative;
     outline: 3px solid black;
-    width: 400px;
+    width: 500px;
     height: 200px;
     margin: 20px;
-}
-
-.img {
-    /* background-image: url("https://static.vecteezy.com/system/resources/previews/001/218/845/non_2x/colorful-holographic-gradient-background-design-vector.jpg");
-*/
-    background-color: #8EC5FC;
-    background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
 }
 
 #project:hover {

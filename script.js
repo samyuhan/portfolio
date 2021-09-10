@@ -1,5 +1,8 @@
 const bootstrap = require('bootstrap');
 
-document.getElementById("project").addEventListener("click", function() {
-    window.open("https://jessgiannini.github.io/FeedYourBoredom/");
-  });
+var toastElList = [].slice.call(document.querySelectorAll('.toast'))
+var toastList = toastElList.map(function (toastEl) {
+  return new bootstrap.Toast(toastEl, option)
+})
+
+toastList.show()
