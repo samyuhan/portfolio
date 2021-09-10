@@ -3,18 +3,19 @@
 
 ## Table of Contents 
 - [Description](#description)
-- [Installation](#installation)
+- [Technologies](#technologies)
+- [Code](#code)
 - [Usage](#usage)
 - [Contribution](#contribution)
 - [Author](#author)
 
 ## Description
-This homework assignment was to build a portfolio website to showcase the developer's work in order to assess if they satisfy the requirements for an open position. The website has 4 components: the About Me section, the Work section, the Contact Me section, and the Resume section. 
+This homework assignment was to update my portfolio website to showcase my progress. The website has the components: the Navigation bar (with Resume), the About Me section, the Work section, and the Contact Me section. Three projects/assignments are shown in the Work section. They redirect to the deployed application or the GitHub repo.
 
-## Technologies Used
-This website was written in HTML/CSS on Visual Studio, using Terminal to access the Github repo with git.
+## Technologies
+This website was written in HTML/CSS on Visual Studio, using Terminal to access the Github repo with git. Bootstrap was used to create cards.
 
-## Essential Code
+## Code
 Flexbox was used for the display/positioning of the content.
 ```html
 .container {
@@ -29,13 +30,24 @@ Flexbox was used for the display/positioning of the content.
 }
 ```
 
-To change the image background when hovering over it, I added:
+To make the page mobile responsive, I added:
 ```html
-.container img:hover {
-    background-color: grey;
-    opacity: 0.7
+@media (max-width: 600px) {
+    .contact-me ul {
+        font-size: small;
+        display: inline-block;
+    }
 }
 ```
 
-## Application Functioning
+## Usage
+![Demo Walkthrough](./assets/demo.gif)
 The final website can be found here: [Website Portfolio](https://samyuhan.github.io/portfolio/)
+
+## License
+MIT License - A short and simple permissive license with conditions only requiring preservation of copyright and license notices. Licensed works, modifications, and larger works may be distributed under different terms and without source code.
+## Contribution
+[![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.0-4baaaa.svg)](code_of_conduct.md)
+## Author
+- Github: [samyuhan](https://github.com/samyuhan)
+- Email: syuhan@berkeley.edu
