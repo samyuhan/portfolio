@@ -13,43 +13,10 @@ header h1 {
     padding: 30px;
 }
 
-/* nav {
-    background-color: grey;
-    padding: 30px;
-    padding-left: 500px;
-    margin: 15px;
-    float: right;
-    scroll-behavior: smooth;
-} */
-
-/* nav a {
-    color: pink;
-    padding: 30px 25px;
-} */
-
-/* nav ul {
-    list-style-type: none;
-} */
-
-/* nav ul li {
-    display: inline-block;
-    margin-left: 15px;
-} */
-
 figure img {
     display: inline;
     width: 100%;
 }
-
-/* figure p {
-    display: inline;
-    position: absolute;
-    top: 375px;
-    right: 125px;
-    background-color: pink;
-    padding: 15px;
-    font-size: 25px;
-} */
 
 aside {
     /* border-right: 3px solid black; */
@@ -86,19 +53,6 @@ aside {
     display: flex;
     text-decoration: none;
 }
-
-/* .container p {
-    display: inline;
-    position: absolute;
-    top: 125px;
-    left: 50px;
-} */
-
-/* .container img {
-    display: inline;
-    border: 10px solid pink;
-    margin: 10px;
-} */
 
 #project {
     position: relative;
