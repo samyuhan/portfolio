@@ -1,6 +1,13 @@
 # portfolio
 ![license](https://img.shields.io/badge/license-MIT-blue)
 
+## Table of Contents 
+- [Description](#description)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contribution](#contribution)
+- [Author](#author)
+
 ## Description
 This homework assignment was to build a portfolio website to showcase the developer's work in order to assess if they satisfy the requirements for an open position. The website has 4 components: the About Me section, the Work section, the Contact Me section, and the Resume section. 
 
