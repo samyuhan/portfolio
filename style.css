@@ -88,7 +88,7 @@ aside {
 }
 
 .contact-me ul li {
-    display: inline;
+    display: inline-block;
     padding: 50px;
 }
 
